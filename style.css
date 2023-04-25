@@ -1,0 +1,609 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-edit{
+    font-family: math;
+    font-size: 17px;
+    color: black;
+    gap: 28px;
+    margin-left: 100px;
+}
+.nav-edit a:hover{
+   color: #ff2f2f;
+   
+}
+.nav-icon{
+    gap: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    margin-left: 155px;
+}
+.nav-icon a{
+    color: #1a1a1a;
+}
+.nav-icon i:hover{
+   color: #ff2f2f;
+}
+.nav-img{
+    float: right;
+    margin-right: 75px;
+    margin-top: 56px;
+    position: relative;
+    width: 340px;
+}
+.nv-img-text{
+    padding: 10px 19px;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+}
+.nv-img-text:hover{
+    color: black;
+    background-color: transparent;
+}
+.decription-icon{
+    font-size: 25px;
+    color: #ff2f2f;
+    margin-right: 153px;
+    margin-top: 28px;
+}
+.decription-card{
+    width: 235px;
+    align-items: center;
+    height: 92px;
+    border-radius: unset;
+    border: unset;
+}
+.product-nav-edit li a{
+    color: black;
+    font-family: math;
+}
+.product-nav-edit li a:hover{
+    color: #ff2f2f;
+}
+.cart-heart-edit{
+  color: black;
+    font-size: 19px;
+}
+.cart-heart-edit:hover{
+   color: #ff2f2f;
+}
+.cart-price-edit{
+    color: #3a3939;
+    font-family: math;
+    font-size: 21px;
+}
+
+.img-hover-text span i:hover{
+    color: #ff2f2f;
+}
+.img-hover-text p:hover{
+    color: #ff2f2f;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover .card-img-edit{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.img-hover-text{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 94px;
+    background-color: white;
+    padding: 7px 0px;
+    font-size: 17px;
+    opacity: 0;
+    width: 100%;
+    
+}
+.card:hover .img-hover-text {
+    opacity: 1;
+}
+.card-discount{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    background-color: #ff2f2f;
+    color: white;
+    padding: 1px 8px;
+    font-family: sans-serif;
+}
+.banner1-text{
+    
+    position: absolute;
+    top: 89px;
+    left: 70px;
+
+}
+.benner1-btn{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    margin-top: 136px;
+    border: unset;
+}
+.benner1-btn:hover{
+    background-color: #ff2f2f;
+    color: white;
+    
+}
+.card{
+    overflow: hidden;
+}
+.banner-1-img-hover:hover{
+    transform: scale(1.1);
+    transition: all 2s ease;
+}
+.banner2-text{
+    
+    position: absolute; 
+    top: 52px;
+    left: 47px;
+
+}
+.insta-i-edit i{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 18px;
+    color:black;
+    cursor: pointer;
+}
+.insta-i-edit i:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.insta-hover:hover{
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+.position-change-insta-i{
+    position: absolute;
+    margin-top: -163px;
+    margin-left: 105px;
+    opacity: 0;
+}
+.insta-hover:hover .position-change-insta-i{
+    opacity: 1;
+}
+.brand-logo-edit{
+    opacity: 0.5;
+}
+.brand-logo-edit:hover{
+    opacity: 1;
+}
+.main-footer-search{
+    border: unset;
+    border-bottom: #f0f4f6;
+    border-style: groove;
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+}
+.fotter-search{
+    background: transparent;
+}
+.footer-nav-edit{
+    list-style: none;
+    display: flex;
+    gap: 58px;
+    color: black;
+    margin-top: 64px;
+    cursor: pointer;
+    float: right;
+}
+.footer-nav-edit li a:hover{
+    color: #ff2f2f;
+}
+.footer-icon{
+    float: right;
+    word-spacing: 20px;
+}
+.footer-icon i{
+    border: solid 1px;
+    padding: 12px 12px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.footer-icon i:hover{
+  background-color: #ff2f2f;
+  color: white;
+}
+.search-btn-hover{
+    border-color: #7c7c7c;
+    border-radius: unset;
+}
+.search-btn-hover i:hover{
+    color: #ff2f2f;
+}
+.search-text{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: -29px;
+    cursor: pointer;
+}
+.search-text li:hover{
+    color: #ff2f2f;
+}
+.search-btn{
+    padding: 2px 21px;
+    margin-top: 17px;
+    border: unset;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.search-btn:hover{
+    color: #ff2f2f;
+}
+.stock-nan{
+    background-color: #b7b7b7;
+    padding: 2px 10px;
+    border-radius: 14px;
+    float: right;
+}
+.search-text li:hover .stock-nan {
+    background-color: #ff2f2f;
+    color: white;
+}
+.Popular-btn{
+    padding: 6px 10px;
+    border: 0;
+    background-color: #d5d5d5;
+    color: #2c2c2c;
+}
+.Popular-btn:hover{
+    border: solid 1px;
+    border-color: #ff2f2f;
+    background-color: transparent;
+    color: #ff2f2f;
+}
+.shop-card-img .card{
+    overflow: hidden;
+}
+.card:hover .shop-card-img{
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+}
+.shop-cart-hover{
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    display: grid;
+    gap: 17px;
+    font-size: 19px;
+    opacity: 0;
+}
+.card:hover .shop-cart-hover{
+   right: 15px;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.shop-cart-hover i{
+    background-color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 19px;
+}
+.shop-cart-hover i:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease;
+}
+.shop-btn-card{
+    padding: 11px 18px;
+    border: unset;
+    background-color: black;
+    color: white;
+    border-radius: 27px;
+    font-size: 18px;
+}
+.shop-btn-card:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.shop-card-hover{
+    position: absolute;
+    width: 100%;
+    margin-left: -17px;
+    margin-top: 12px;
+}
+.card:hover .shop-card-hover{
+    margin-top: -145px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.shop-heder-icon a{
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+    word-spacing: 10px;
+    cursor: pointer;
+}
+.shop-heder-icon a i:hover{
+    color: #ff2f2f;
+}
+.shop-heder-icon a:active{
+    color: #ff2f2f;
+}
+.shop-herder-2-icon{
+    font-size: 19px;
+    word-spacing: 31px;
+}
+.shop-herder-2-icon i{
+    background-color: #e1e1e1;
+    padding: 12px 12px;
+    border-radius: 24px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+.shop-herder-2-icon i:hover{
+    color: white;
+    background-color: #ff2f2f;
+}
+.card-titlr-edit-shop{
+    cursor: pointer;
+}
+.card-titlr-edit-shop:hover{
+    color: #ff2f2f;
+
+}
+.pagination-shop{
+    list-style: none;
+    display: flex;
+    gap: 27px;
+}
+.pagination-shop li{
+    background-color: #efefef;
+    padding: 4px 10px;
+    border-radius: 17px;
+}
+.pagination-shop li:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.decription-icon-about-us{
+    font-size: 25px;
+    color:  #a3a3a3;
+    margin-right: 153px;
+    margin-top: 28px;
+}
+.decription-icon-about-us:hover{
+    color: #ff2f2f;
+}
+.about-benner-btn{
+    font-size: 13px;
+    border: unset;
+}
+.about-benner-btn:hover{
+    color: #ff2f2f;
+    transition: all 0.3s ease;
+}
+.card{
+    overflow: hidden;
+}
+.about-benner-img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+.about-team-icon{
+    position: absolute;
+    top: 170px;
+    /* 136 */
+    right: 0px;
+    word-spacing: 14px;
+    font-size: 22px;
+    width: 100%;
+    background-color: white;
+    padding: 5px 0px;
+    opacity: 0;
+
+}
+.card:hover .about-team-icon{
+    top: 137px;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.about-team-icon-i-1{
+    background-color: #3b5998;
+    color: white;
+    padding: 7px 11px;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.about-team-icon-i-1:hover{
+    color: #3b5998;
+    background-color: white;
+    border: solid 1px #3b5998;
+}
+.about-team-icon-i-2{
+    background-color: #c32aa3;
+    font-size: 21px;
+    border-radius: 22px;
+    padding: 8px 10px;
+    color: white;
+    cursor: pointer;
+}
+.about-team-icon-i-2:hover{
+    color: #c32aa3;
+    background-color: white;
+    border: solid 1px #c32aa3;
+}
+.about-team-icon-i-3{
+    background-color: #55acee;
+    padding: 8px 8px;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+}
+.about-team-icon-i-3:hover{
+    color:  #55acee;
+    background-color: white;
+    border: solid 1px #55acee;
+}
+.about-slider-icon{
+    background-color: red;
+    border-radius: 22px;
+}
+table,th,td,tr{
+    border: solid 1px #a3a3a3;
+}
+table{
+    width: 100%;
+}
+.cart-table-content{
+    text-align: center;
+}
+.cart-hover:hover{
+    color: #ff2f2f;
+    cursor: pointer;
+}
+.cart-btn{
+    padding: 12px 12px;
+    border: unset;
+    color: black;
+}
+.cart-btn:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.cart-btn-2{
+    padding: 9px 0px;
+    border: unset;
+    background-color: black;
+    color: white;
+}
+.cart-btn-2:hover{
+    background-color: #ff2f2f;
+    color: white;
+    cursor: pointer;
+}
+.checkout-click:hover{
+    color: #ff2f2f;
+    cursor: pointer;
+}
+.checkout-login-social{
+    list-style: none;
+    display: flex;
+    gap: 33px;
+}
+.checkout-login-social li{
+    padding: 12px 42px;
+    background-color: #1a1a1a;
+}
+.checkout-login-social li a{
+    color: white;
+    text-decoration: none;
+}
+.checkout-login-social li:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.checkout-btn-according{
+    padding: 9px 17px;
+    border: unset;
+    background-color: black;
+    color: white;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+.checkout-btn-according:hover{
+    background-color: #ff2f2f;
+    color: white;
+}
+.card-checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-edit-login{
+    display: flex;
+    justify-content: center;
+}
+.nav-edit-login a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.nav-edit-login a:hover{
+    color: #ff2f2f;
+}
+.login-card-edit{
+    filter: drop-shadow(1px 2px 4px black);
+    padding: 63px 61px;
+
+}
+.login-forget{
+    float: right;
+}
+.login-forget:hover{
+   color: #ff2f2f;
+   cursor: pointer;
+}
+.hover-btn:hover{
+    color: white;
+    background-color: #ff2f2f;
+}
+.nav-edit-login.active{
+    color: #ff2f2f;
+}
+.hover-btn{
+    border: unset;
+    padding: 8px 17px;
+    background-color:#ff2f2f;
+    color: white;
+    cursor: pointer;
+}
+.hover-btn:hover{
+    background-color: #1a1a1a;
+}
+.card-edit-account a{
+    text-decoration: none;
+    color: black;
+    border-style: ridge;
+}
+.account-header{
+    border: solid 1px rgb(113, 113, 113) ; 
+    padding: 1px 10px;
+}
+.card-edit-account a:hover{
+    background-color: #ff2f2f;
+    color: white;
+    border: 0;
+}
+.account-body{
+    padding: 10px 10px;
+    border: ridge 1px #989898;
+    margin-top: 10px;
+}
+.account-body,table,td,th{
+    border: 1px solid;
+}
+.account-body-btn{
+    padding: 9px 12px;
+    border: unset;
+    color: white;
+    background-color: red;
+
+}
+.account-body-btn:hover{
+    background-color: black;
+    color: white;
+}
+.whishlist-cart{
+    padding: 6px 6px;
+    border: unset;
+    background-color: black;
+    color: white;
+}
+.whishlist-cart:hover{
+    background-color: #ff2f2f;
+
+}
+
